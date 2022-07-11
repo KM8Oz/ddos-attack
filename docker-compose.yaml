@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: erikmnkl/stoppropaganda
+    image: km8oz/stoppropaganda
     container_name: stoppropaganda
     restart: unless-stopped
     ports:
